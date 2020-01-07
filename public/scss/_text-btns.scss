@@ -1,0 +1,31 @@
+.btns {
+  position: relative;
+  top: 30px;
+  color: white;
+  background-color: gold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btns:hover {
+  background: goldenrod;
+}
+
+h4 {
+  font-size: 4.3rem;
+  color: gold;
+}
+
+h6 {
+  letter-spacing: 4px;
+  font-size: 22px;
+  font-weight: 700;
+  color: goldenrod;
+  margin-bottom: 8px;
+}

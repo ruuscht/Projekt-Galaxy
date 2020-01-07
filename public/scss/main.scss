@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+  background: #090242;
+}
+
+/* Import scss */
+@import "breakpoint.scss";
+@import "header.scss";
+@import "navbar.scss";
+@import "footer.scss";
+@import "sec1.scss";
+@import "sec2.scss";
+@import "sec3.scss";
+@import "keyframes.scss";
+@import "join.scss";
+@import "index.scss";
+@import "discover.scss";
+@import "text-btns.scss";
+@import "photo-JS.scss";

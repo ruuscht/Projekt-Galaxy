@@ -1,0 +1,86 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/public/css/img/colorful.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slogan,
+h2 {
+  font-weight: 200;
+  /* margin: 0.4em 0; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slogan {
+  font-size: 3em;
+  color: white;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #f0e68c 0px 0px 20px, #f0e68c 0px 0px 30px, #f0e68c 0px 0px 40px,
+    #f0e68c 0px 0px 50px, #f0e68c 0px 0px 75px,
+    2px 2px 2px rgba(240, 230, 140, 0);
+}
+h2 {
+  color: white;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #f0e68c 0px 0px 20px, #f0e68c 0px 0px 30px, #f0e68c 0px 0px 40px,
+    #f0e68c 0px 0px 50px, #f0e68c 0px 0px 75px,
+    2px 2px 2px rgba(240, 230, 140, 0);
+  font-size: 2em;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* #explore{
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #F0E68C 0px 0px 20px, #F0E68C 0px 0px 30px, #F0E68C 0px 0px 40px, #F0E68C 0px 0px 50px, #F0E68C 0px 0px 75px, 2px 2px 2px rgba(240,230,140,0);
+      background: transparent;
+      border: 2px solid khaki;
+      border-radius: 30px;
+      width: 140px;
+      padding: 8px;
+    } */
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 38px;
+  height: 38px;
+  border: 2px solid gold;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: studsa 1.5s infinite 1.5s;
+  animation: studsa 1.5s infinite 1.5s;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  transform: scale(1);
+}
+
+.scroll-down:before {
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: calc(50% - 7px);
+  transform: rotate(-45deg);
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: "";
+  border: 2px solid gold;
+  border-width: 0px 0 2px 2px;
+}
